@@ -21,7 +21,7 @@ public class LostItem {
     private String location;
 
     @Column
-    private String posted_by;
+    private String postedBy;
 
     @Column
     private String contact;
@@ -42,8 +42,8 @@ public class LostItem {
         this.lost_id = lost_id;
     }
 
-    public String getPosted_by() {
-        return posted_by;
+    public String getPostedBy() {
+        return postedBy;
     }
 
     public String getLocation() {
@@ -98,8 +98,8 @@ public class LostItem {
         this.location = location;
     }
 
-    public void setPosted_by(String posted_by) {
-        this.posted_by = posted_by;
+    public void setPostedBy(String postedBy) {
+        this.postedBy = postedBy;
     }
 
     public void setClaimed(String claimed) {
